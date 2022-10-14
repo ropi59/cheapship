@@ -8,6 +8,7 @@ import { SubscribeComponent } from './pages/subscribe/subscribe.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { SearchResultsComponent } from './pages/search-results/search-results.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SearchResultsComponent } from './pages/search-results/search-results.co
     SettingsComponent,
     FavoritesComponent,
     SearchResultsComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule
