@@ -9,6 +9,11 @@ import { SettingsComponent } from './pages/settings/settings.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { SearchResultsComponent } from './pages/search-results/search-results.component';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
+import { TestComponent } from './test/test.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,9 +23,17 @@ import { SearchResultsComponent } from './pages/search-results/search-results.co
     SettingsComponent,
     FavoritesComponent,
     SearchResultsComponent,
+   
+    TestComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

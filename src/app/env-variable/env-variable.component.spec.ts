@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChangepasswordComponent } from './changepassword.component';
+import { EnvVariableComponent } from './env-variable.component';
 
-describe('ChangepasswordComponent', () => {
-  let component: ChangepasswordComponent;
-  let fixture: ComponentFixture<ChangepasswordComponent>;
+describe('EnvVariableComponent', () => {
+  let component: EnvVariableComponent;
+  let fixture: ComponentFixture<EnvVariableComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChangepasswordComponent ]
+      declarations: [ EnvVariableComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ChangepasswordComponent);
+    fixture = TestBed.createComponent(EnvVariableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

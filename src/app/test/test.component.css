@@ -1,0 +1,29 @@
+/* div {
+    text-align: center;
+    position: center;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    
+} */
+/* .homePage {
+    display: flex;
+    flex-direction: row;
+} */
+
+.imagecontact{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    position: center;
+}
+
+.imgCheap {
+    width: auto;
+    height: auto;
+}
+
+.searchbar {
+    margin-top: 100px;
+    
+}
