@@ -13,6 +13,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { registerLocaleData } from '@angular/common';
 import { RechercheVolComponent } from './components/recherche-vol/recherche-vol.component';
 import { RechercheAvanceComponent } from './components/recherche-avance/recherche-avance.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { RechercheAvanceComponent } from './components/recherche-avance/recherch
         HeaderComponent,
         RechercheVolComponent,
         RechercheAvanceComponent,
+        FooterComponent,
     ],
     imports: [
         BrowserModule,
