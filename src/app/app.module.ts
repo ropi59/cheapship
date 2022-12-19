@@ -32,7 +32,6 @@ import { FooterComponent } from './components/footer/footer.component';
     ],
     imports: [
         BrowserModule,
-        HeaderComponent,
     ],
     providers: [
         {provide: LOCALE_ID, useValue: 'fr-FR'}
