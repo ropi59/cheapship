@@ -3,8 +3,21 @@ footer{
     padding-top: 0;
     display: flex;
     justify-content: space-between;
+   position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .logo>img{
     width: 200px;
+    padding-right: 20px;
+}
+
+.ios{
+width: 50px;
+padding-left: 35px;
+}
+
+.android{
+width: 48px;
 }

@@ -1,7 +1,11 @@
 header{
     background-color: #92B4EC;
     padding-top: 0;
-    position: static;
+    position: sticky;
+    display: block;
+    width: 100%;
+    top: 0;
+
 }
 
 h1{
