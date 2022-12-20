@@ -1,0 +1,10 @@
+footer{
+    background-color: #92B4EC;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo>img{
+    width: 200px;
+}
