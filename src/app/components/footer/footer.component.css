@@ -21,3 +21,8 @@ padding-left: 35px;
 .android{
 width: 48px;
 }
+
+button{
+    background-color: #92B4EC ;
+    border: none;
+}
