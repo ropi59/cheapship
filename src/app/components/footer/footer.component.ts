@@ -57,6 +57,8 @@ export class FooterComponent implements OnInit {
     this.router.navigateByUrl("infos-voyages")
   }
 
- 
+ onAirfr(){
+  this.router.navigateByUrl("https://wwws.airfrance.fr/");
+ }
 
 }

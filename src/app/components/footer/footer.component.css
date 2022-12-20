@@ -26,3 +26,7 @@ button{
     background-color: #92B4EC ;
     border: none;
 }
+
+a{
+    text-decoration: none;
+}
