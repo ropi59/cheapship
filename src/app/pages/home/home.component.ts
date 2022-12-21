@@ -13,6 +13,12 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+/**
+ * Il navigue vers la page "favoris".
+ */
+  onFavoris(){
+    this.router.navigateByUrl("favoris");
+  }
 
 
 }
