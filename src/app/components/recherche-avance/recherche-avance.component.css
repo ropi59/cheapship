@@ -30,6 +30,7 @@ img{
     padding-top: auto;
     padding-bottom: auto;
 }
+
 .form{
     align-items: center;
     margin : 15px;
@@ -37,6 +38,31 @@ img{
     background-color: #FFFF;
     align-self: center;
 }
+
+.formArrive{
+    align-items: center;
+    margin : 15px;
+    justify-content: center;
+    background-color: #FFFF;
+    align-self: center;
+}
+
+.formPrix{
+    align-items: center;
+    margin : 15px;
+    justify-content: center;
+    background-color: #FFFF;
+    align-self: center;
+}
+
+.formDate{
+    align-items: center;
+    margin : 15px;
+    justify-content: center;
+    background-color: #FFFF;
+    align-self: center;
+}
+
 input{
     justify-content: center;    
 }

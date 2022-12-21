@@ -1,39 +1,91 @@
 <div class="recherAvance">
-    <div class="titreRecherche">
-      <h2>Rechercher avancée</h2>
-    </div>
-  
-    <div class="form">    
-      <form action="get">
-        <div class="barRecherche">
-          <img src="../../../assets/globe_color.png" alt="">
-          <input
-            type="search"
-            name="depart"
-            id="depart"
-            placeholder="Aéroport de départ"
-          />   
-          <button type="submit">
-              <img class= "search" src="../../../assets/magnifier_blue.gif" alt="recherche">
-          </button>     
-        </div>
-      </form>
-    </div>
-    <div class="form">    
-        <form action="get">
-          <div class="barRecherche">
-            <img src="../../../assets/globe_color.png" alt="">
-            <input
-              type="search"
-              name="arrive"
-              id="arrive"
-              placeholder="Aéroport d'arrivée"
-            />   
-            <button type="submit">
-                <img class= "search" src="../../../assets/magnifier_blue.gif" alt="recherche">
-            </button>     
-          </div>
-        </form>
-      </div>
+  <div class="titreRecherche">
+    <h2>Rechercher avancée</h2>
   </div>
+
+  <div class="form">
+    <form action="get">
+      <div class="barRecherche">
+        <img src="../../../assets/globe_color.png" alt="terre" />
+        <input
+          type="search"
+          name="depart"
+          id="depart"
+          placeholder="Aéroport de départ"
+        />
+        <button type="submit">
+          <img
+            class="search"
+            src="../../../assets/magnifier_blue.gif"
+            alt="recherche"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+  <div class="formArrive">
+    <form action="get">
+      <div class="barRecherche">
+        <img src="../../../assets/globe_color.png" alt="terre" />
+        <input
+          type="search"
+          name="arrive"
+          id="arrive"
+          placeholder="Aéroport d'arrivée"
+        />
+        <button type="submit">
+          <img
+            class="search"
+            src="../../../assets/magnifier_blue.gif"
+            alt="recherche"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="formPrix">
+    <form action="get">
+      <div class="barPrix">
+        <img src="../../../assets/money_color.png" alt="money" />
+        <input
+          type="number"
+          name="prix"
+          id="prix"
+          placeholder="Prix rond en €"
+        />
+        <button type="submit">
+          <img
+            class="search"
+            src="../../../assets/magnifier_blue.gif"
+            alt="recherche"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="formDate">
+    <form action="get">
+      <div class="barDate">
+        <img src="../../../assets/calendar_color.png" alt="date" />
+        <input
+          type="date"
+          name="date"
+          id="prix"
+          max="2030-04-30"
+        />
+        <button type="submit">
+          <img
+            class="search"
+            src="../../../assets/magnifier_blue.gif"
+            alt="recherche"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+
+
   
+</div>
