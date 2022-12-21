@@ -1,0 +1,50 @@
+.recherAvance{
+    background-color: #92B4EC ;
+    display: flex;
+    justify-items: center;
+    padding: 30px;
+    margin : 70px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    width: 62vh;
+    border-radius: 5px;
+    
+}
+
+h2{
+    color : #FFFF;
+    font-size: large;
+    width: auto;
+    margin-left: 39%;
+}
+
+/* .barRecherche{
+   
+} */
+
+img{
+    width: 2vw;
+    top: 15px;
+    background-color: #FFFF;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.form{
+    align-items: center;
+    margin : 15px;
+    justify-content: center;
+    background-color: #FFFF;
+    align-self: center;
+}
+input{
+    justify-content: center;    
+}
+
+button{
+    background-color: #FFD24C;
+    ;
+}
+.search{
+    background-color: #FFD24C;
+}
