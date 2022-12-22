@@ -20,5 +20,13 @@ export class HomeComponent implements OnInit {
     this.router.navigateByUrl("favoris");
   }
 
+  onCompte(){
+    this.router.navigateByUrl("compte");
+  }
+
+  onPropos(){
+    this.router.navigateByUrl("propos");
+  }
+
 
 }
